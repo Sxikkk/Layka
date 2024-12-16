@@ -1,0 +1,27 @@
+.header{
+    background: #242424;
+    padding: 35px;
+    .container{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+        max-width: 1400px;
+        .link:hover{
+            transform: scale(1.1) translateY(-5px);
+            color: #4d84ff;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .link{
+        display: none;
+    }
+    a{
+        margin: 0 auto;
+    }
+}

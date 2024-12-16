@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .logoContainer{
+        padding: 35px;
+        background: #000000;
+    }
+}

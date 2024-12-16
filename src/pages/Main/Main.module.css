@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    h1{
+        animation: appearance 2s  forwards;
+    }
+
+    p{
+        animation: appearance 2.2s forwards;
+    }
+
+    button{
+        width: 20%;
+        animation: appearance 2.4s forwards;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        gap: 3rem;
+        button{
+            margin: 0 auto;
+        }
+    }
+}
+
+@keyframes appearance {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
