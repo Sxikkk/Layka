@@ -22,59 +22,74 @@ const Characters = () => {
 
     const charInfo = [
         {
-            title: 'something',
-            role: 'Soldier',
-            bio: 'Was born in 1972',
+            title: 'Кира "Феникс" Азаева',
+            role: 'Штурмовик',
+            bio: 'Бывший спецназовец, которая потеряла семью в результате техногенной катастрофы. Присоединилась к сопротивлению, чтобы предотвратить повторение трагедии.',
             skills:
                 [
                     {
-                        description: 'something',
-                        name: 'something',
+                        description: 'После смерти активирует нанодроны, восстанавливающие часть здоровья.',
+                        name: 'Возрождение',
                     },
                     {
-                        description: 'something',
-                        name: 'something',
+                        description: 'Устанавливает огненные баррикады, которые наносят урон врагам при контакте.',
+                        name: 'Огненный рубеж',
                     },
                 ],
             weapons:
                 [
                     {
                         description: 'something',
-                        name: 'something',
-                    },
-                    {
-                        description: 'something',
-                        name: 'something',
+                        name: 'Автоматическая винтовка с подствольным огнемётом',
                     },
                 ]
         },
         {
-            title: 'something',
-            role: 'Soldier',
-            bio: 'Was born in 1972',
+            title: 'Райдер "Шакал" Торрес',
+            role: 'Разведчик',
+            bio: 'Бывший контрабандист, хорошо знаком с пустынными территориями. Его кличка "Шакал" отражает его способность выживать в самых суровых условиях.',
             skills:
                 [
                     {
-                        description: 'something',
-                        name: 'something',
+                        description: 'Отмечает противников, попавших в его поле зрения.',
+                        name: 'Следопыт',
                     },
                     {
-                        description: 'something',
-                        name: 'something',
+                        description: 'Временно ослепляет врагов в зоне действия.',
+                        name: 'Песчаная буря',
                     },
                 ],
             weapons:
                 [
                     {
                         description: 'something',
-                        name: 'something',
-                    },
-                    {
-                        description: 'something',
-                        name: 'something',
+                        name: 'Винтовка с высокой точностью и арбалет для бесшумного устранения.',
                     },
                 ]
-        }
+        },
+        {
+            title: 'Эрика "Медведица" Кобе',
+            role: 'Танк',
+            bio: 'Родом из заснеженных северных регионов, Эрика привыкла к выживанию в экстремальных условиях. Она всегда защищает своих товарищей',
+            skills:
+                [
+                    {
+                        description: 'Создаёт огромный энергетический щит, который поглощает урон.',
+                        name: 'Щитовая стена',
+                    },
+                    {
+                        description: 'Атака в ближнем бою, сбивающая врагов с ног.',
+                        name: 'Рывок медведя',
+                    },
+                ],
+            weapons:
+                [
+                    {
+                        description: 'something',
+                        name: 'Тяжёлый пулемёт и боевой топор.',
+                    },
+                ]
+        },
     ]
 
     return (

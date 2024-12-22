@@ -3,5 +3,14 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
+    background: #B1B3B1;
+}
+.characterCardListContainer{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }

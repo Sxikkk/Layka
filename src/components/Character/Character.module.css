@@ -21,7 +21,7 @@
     .img:hover ~ .name{
         opacity: 1;
         transition: 0.5s;
-        transform: translateY(-90%);
+        transform: translateY(-100%);
     }
 }
 

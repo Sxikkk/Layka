@@ -5,7 +5,7 @@ import classes from './CharacterCardList.module.css'
 const CharacterCardList = ({props}) => {
     return (
         <div className={classes.characterCardList}>
-            <div className="main">
+            <div className={classes.characterCardListContainer}>
                 {props.map((item, index) => (
                     <CharacterCard props={item} />
                 ))}
