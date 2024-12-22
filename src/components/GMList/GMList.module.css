@@ -1,0 +1,33 @@
+.List{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    padding: 2rem;
+    background: #D9D9D9;
+    animation: appearance 3s forwards;
+    h1{
+        color: #242424;
+        font-size: 48px;
+        font-weight: 400;
+        text-transform: none;
+    }
+}
+
+@keyframes appearance {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 660px) {
+    .List{
+        h1{
+            font-size: 30px;
+        }
+    }
+}

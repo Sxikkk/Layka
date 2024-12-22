@@ -1,7 +1,16 @@
 .container{
     display: flex;
-    justify-content: space-between;
+    gap: 3rem;
     margin-top: 80px;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10rem;
 }
 
 .offer{
@@ -18,7 +27,7 @@
     }
 
     button{
-        width: 20%;
+        width: 70%;
         animation: appearance 2.4s forwards;
     }
 }
@@ -33,6 +42,11 @@
         gap: 3rem;
         button{
             margin: 0 auto;
+        }
+    }
+    .offer{
+        h1{
+            font-size: 3rem;
         }
     }
 }

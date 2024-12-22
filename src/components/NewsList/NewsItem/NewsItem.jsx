@@ -7,7 +7,9 @@ const NewsItem = ({props}) => {
     const navigate = useNavigate();
 
     return (
-        <div className={classes.NewsItem}>
+        <div className={classes.NewsItem}
+            style={{backgroundColor: props.color}}
+        >
              <div className={classes.Offer}>
                  <h2>{props.name}</h2>
                  <h3>{props.meaning}</h3>

@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
           <Header/>
-          <main className="main">
-              <AppRouter/>
-          </main>
+
+          <AppRouter/>
+
           <Footer/>
       </BrowserRouter>
     </>

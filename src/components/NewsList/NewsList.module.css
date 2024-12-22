@@ -1,0 +1,55 @@
+.NewsList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    gap: 3rem;
+    padding: 3rem;
+    animation: appearance 2s forwards;
+    background: #0D0D0D;
+    .top{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: baseline;
+        margin-bottom: 1rem;
+        h2{
+            color: #fff;
+            font-size: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .NewsList {
+        .top{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 680px) {
+        .NewsList {
+            .top{
+                h2{
+                    font-size: 2.3rem;
+                }
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@keyframes appearance {
+    0%{
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%) translateX(0%) ;
+    }
+}
