@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    border-radius: 60px;
     gap: 3rem;
     padding: 3rem;
     animation: appearance 2s forwards;
