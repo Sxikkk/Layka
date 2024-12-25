@@ -22,9 +22,7 @@ const CharacterCard = ({props}) => {
                 <div className={classes.sect}>
                     <h3>Оружие:</h3>
                     {props.weapons.map((item) => (
-                        <Tooltip title={item.description}>
                             <p>{item.name}</p>
-                        </Tooltip>
                     ))}
                 </div>
             </div>

@@ -12,12 +12,12 @@ import CharacterCardList from "../components/CharacterCard/CharacterCardList/Cha
 const Characters = () => {
 
     const characters = [
-        {name: 'Kira', image: CH1, delay: 3, percent: 20, z: 6},
-        {name: 'Vova', image: CH2, delay: 1, percent: '-20', z: 5},
-        {name: 'loX', image: CH3, delay: 1, percent: '20', z: 4},
-        {name: 'Shluha', image: CH4, delay: 1, percent: '-20', z: 3},
-        {name: 'Kek', image: CH5, delay: 1, percent: '20', z: 2},
-        {name: 'Lol', image: CH6, delay: 1, percent: '-20', z: 1},
+        {name: 'Райдер', image: CH1, delay: 3, percent: 20, z: 6},
+        {name: 'Кира', image: CH2, delay: 1, percent: '-20', z: 5},
+        {name: 'Макс', image: CH3, delay: 1, percent: '20', z: 4},
+        {name: 'Иван', image: CH4, delay: 1, percent: '-20', z: 3},
+        {name: 'Юн', image: CH5, delay: 1, percent: '20', z: 2},
+        {name: 'Эрика', image: CH6, delay: 1, percent: '-20', z: 1},
     ]
 
     const charInfo = [
@@ -90,6 +90,75 @@ const Characters = () => {
                     },
                 ]
         },
+        {
+            title: 'Иван "Гаджет" Марков',
+            role: 'Инженер',
+            bio: 'Гений электроники, создатель множества боевых устройств. Страдает от нехватки уверенности, но всегда находит выход из сложных ситуаций.',
+            skills:
+                [
+                    {
+                        description: 'Выпускает дронов, которые атакуют или лечат союзников.',
+                        name: 'Боевые дроны',
+                    },
+                    {
+                        description: 'Устанавливает невидимые мины, которые активируются при приближении врагов.',
+                        name: 'Минное поле',
+                    },
+                ],
+            weapons:
+                [
+                    {
+                        description: 'something',
+                        name: 'Штурмовая винтовка с подствольным электрошокером.',
+                    },
+                ]
+        },
+        {
+            title: 'Юн "Тень" Чан',
+            role: 'Снайпер',
+            bio: 'Загадочный наёмник из восточной Азии. Её молчаливость и точность сделали её легендой.',
+            skills:
+                [
+                    {
+                        description: 'Уходит в невидимость на короткое время.',
+                        name: 'Смертельная тишина',
+                    },
+                    {
+                        description: 'Видит врагов сквозь препятствия на несколько секунд.',
+                        name: 'Снайперский прицел',
+                    },
+                ],
+            weapons:
+                [
+                    {
+                        description: 'something',
+                        name: 'Высокоточная снайперская винтовка и компактный пистолет.',
+                    },
+                ]
+        },
+        {
+            title: 'Макс "Буря" О’Коннор',
+            role: 'Подрывник',
+            bio: 'Бывший пиротехник, который потерял всё из-за предательства своих коллег. С тех пор он стал бороться с коррупцией',
+            skills:
+                [
+                    {
+                        description: 'Запускает залп из нескольких гранат одновременно.',
+                        name: 'Град гранат',
+                    },
+                    {
+                        description: 'Использует взрыв, чтобы резко переместиться вперёд.',
+                        name: 'Взрывной скачок',
+                    },
+                ],
+            weapons:
+                [
+                    {
+                        description: 'something',
+                        name: 'Гранатомёт и дробовик.',
+                    },
+                ]
+        }
     ]
 
     return (
