@@ -155,7 +155,7 @@ const Characters = () => {
                 [
                     {
                         description: 'something',
-                        name: 'Гранатомёт и дробовик.',
+                        name: 'Гранатомёт и дробовик',
                     },
                 ]
         }
